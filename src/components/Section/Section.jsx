@@ -1,9 +1,9 @@
 import { CircularProgress } from "@mui/material";
 import React, { useEffect } from "react";
 import { useState } from "react";
-import Cardi from "../Card/Card";
-import Carousel from "../Carousel/Carousel";
-import Filters from "../Filters/Filters";
+import Cardi from "../Card/Card.jsx";
+import Carousel from "../Carousel/Carousel.jsx";
+import Filters from "../Filters/Filters.jsx";
 import styles from "./Section.module.css";
 
 export default function Section({ title, data, filterSource, type }) {

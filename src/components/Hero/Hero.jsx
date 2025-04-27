@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import headphoneimg from "../../assets/hero_headphones.png";
-import Navbar from "../Navbar/Navbar"
+import Navbar from "../Navbar/Navbar.jsx"
 
 import Cardi from "../Card/Card";
 

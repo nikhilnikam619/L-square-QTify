@@ -6,7 +6,7 @@ import { ReactComponent as LeftArrow } from "../../../assets/LeftArrow.svg";
 export default function CarouselLeftNavigation() {
   const swiper = useSwiper();
   const [isBeginning, setIsBeginning] = useState(swiper.isBeginning);
-console.log(LeftArrow);
+
   useEffect(() => {
     const handleSlideChange = () => {
       setIsBeginning(swiper.isBeginning);

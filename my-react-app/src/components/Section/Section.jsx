@@ -30,7 +30,6 @@ export default function Section({ title, data, filterSource, type }) {
       ? card.genre.key === filters[selectedFilterIndex].key
       : card
   );
-  console.log(data);
   return (
     <div>
       <div className={styles.header}>

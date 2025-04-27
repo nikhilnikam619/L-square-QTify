@@ -1,8 +1,7 @@
 
 import React from "react";
 import { useOutletContext } from "react-router-dom";
-import { fetchFilters } from "../api/api";
-//  import Cardi from "../components/Card/Card";
+import { fetchFilters } from "../Api/Api.jsx";
  import Hero from "../components/Hero/Hero";
 import Section from "../components/Section/Section";
 import styles from "./HomePage.module.css";

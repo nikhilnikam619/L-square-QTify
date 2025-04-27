@@ -1,4 +1,3 @@
-// import React, { useEffect, useState } from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
@@ -50,9 +49,22 @@ function Filters({ filters, selectedFilterIndex, setSelectedFilterIndex }) {
         }}
       >
         {filters.map((ele, idx) => (
-          <Tab className={styles.tab} label={ele.label} {...a11yProps(idx)} />
+          <Tab 
+            key={ele.key || idx} // Ensure a unique key
+            className={styles.tab} 
+            label={ele.label} 
+            {...a11yProps(idx)} 
+          />
         ))}
       </Tabs>
+
+     
+      {filters.map((ele, idx) => (
+        <TabPanel key={ele.key || idx} value={selectedFilterIndex} index={idx}>
+       
+          {ele.content}
+        </TabPanel>
+      ))}
     </div>
   );
 }

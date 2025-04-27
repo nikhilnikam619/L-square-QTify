@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar.jsx"
 import {  fetchFilters,
   fetchNewAlbums,
   fetchSongs,
-  fetchTopAlbums,} from "./api/api.jsx"
+  fetchTopAlbums,} from "./Api/Api.jsx"
 import { Outlet } from "react-router-dom";
 import {StyledEngineProvider} from "@mui/material";
 

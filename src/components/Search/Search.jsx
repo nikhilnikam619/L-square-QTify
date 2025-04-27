@@ -76,13 +76,12 @@ function Search({ searchData, placeholder }) {
             required
             {...getInputProps()}
           />
-         
+        </div>
+        <div>
           <button className={styles.searchButton} type="submit">
             <SearchIcon />
           </button>
-       
         </div>
-       
       </form>
       {groupedOptions.length > 0 ? (
         <Listbox {...getListboxProps()}>

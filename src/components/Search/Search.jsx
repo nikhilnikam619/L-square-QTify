@@ -5,7 +5,7 @@ import styles from "./Search.module.css";
 import { ReactComponent as SearchIcon } from "../../assets/Search-icon.svg";
 import {useAutocomplete} from "@mui/base/useAutocomplete";
 import { styled } from "@mui/system";
-import { truncate } from "../../helpers/helpers";
+import { truncate } from "../../helpers/helpers.jsx";
 import { useNavigate } from "react-router-dom";
 import { Tooltip } from "@mui/material";
 

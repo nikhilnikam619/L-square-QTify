@@ -8,8 +8,6 @@ import Cardi from "../Card/Card";
 function Hero() {
   return (
    <>
-
-<Navbar/>
     <div className={styles.hero}>
      
       <div>
